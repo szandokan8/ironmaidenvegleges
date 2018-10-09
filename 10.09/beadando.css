@@ -1,0 +1,85 @@
+body{
+    background-color:black;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a{
+    list-style-type: none;
+    padding: 0;
+}
+ 
+nav a{
+    text-decoration: inherit;
+    text-align: center;
+    color:whitesmoke;
+    display: block;
+    padding: 10px;  
+    background-color:black;
+}
+
+nav a:hover {
+    background-color:#555;
+    cursor: pointer;
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav li{
+        flex: 1 1 0;  
+    }
+    
+    
+    table {
+        
+        border-collapse: collapse;
+        
+        
+    }
+
+    table th {
+        text-align: center;
+        background-color:black;
+        color: whitesmoke;
+        padding:  4px 30px 4px 8px
+        
+        
+    }
+    
+    table th {
+        border: 1px solid #e3e3e3;
+        padding: 20px 20px;
+        
+    }
+    
+    table tr:nth-child(odd) td{
+        background-color: azure;
+        
+        
+    }
+    
+    table {
+        width: 100%
+    }
+    
+    video{
+        border: 5px solid black;
+        border-radius: 12px;
+        background-color: black;
+        
+    }
+
+    
+    
+    

@@ -1,0 +1,10 @@
+body{
+    background-color:black;
+    color: whitesmoke;
+    font-family: monospace;
+    {
+
+        table-layout: auto{
+            border: 1x solid white;
+            padding: inherit;
+        }
